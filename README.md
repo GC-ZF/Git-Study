@@ -5,7 +5,7 @@
 ## 介绍
 小张第一次学git，一键三连哦。 **Star** + **Fork** 
 
-## GitHub修改host.md
+## Resolve GitHub inaccessibility.md
 解决无法访问Github的方法。初学推荐是使用Gitee码云平台，因为Github经常访问超时。但是GitHub也有优点，储存空间无限。Gitee储存空间只有5G。熟练以后可以使用Github。
 
 
