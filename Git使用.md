@@ -11,6 +11,8 @@
 
 讲讲小张的感受：我没有接触过`Git`，所以看了很多视频，对于入门使用确实只要知道`git clone`,`git add`,`git commit`,`git push`,`git merge `,确实也就足够了。但是我很好奇背后的原理，为什么要用`git add`到暂存区而不是直接`git commit`？很多指令之间为什么要按一定的顺序执行？所以这个系列我以初学的时候，小白的角度从安装到工作原理(有的是我自己的见解，如果感觉不对，欢迎指正)，再到实际应用！另外，推荐看一遍第三个参考视频，然后看一下第二个参考视频，对工作原理的讲解和实际应用确实不错！
 
+这次笔记很多，所以慢慢更新，需要的小伙伴可以自行下载markdown笔记：[Gitee](https://github.com/GC-ZF/Git-Study-From-Github.git),[Github](https://gitee.com/gc-zhang/Git-Study-From-Gitee.git)，两个是一样的，习惯哪个就用哪个下载
+
 # 二、版本控制
 
 ## 2.1什么是版本控制？
@@ -937,6 +939,10 @@ git clone [url]
 
 ```bash
 git clone https://gitee.com/gc-zhang/Git-Study-From-Gitee.git
+```
+
+```bash
+git clone https://github.com/GC-ZF/Git-Study-From-Github.git
 ```
 
 ## 8.3 Git 本地仓库操作
