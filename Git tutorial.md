@@ -634,6 +634,49 @@ git config --global user.email 1310446718@qq.com   #邮箱
 >
 > 2. C:\Users\用户名8\ .gitconfig  只适用于当前登录用户的配置  --global 全局
 
+## 5.3 Git Bash中文乱码
+
+> Q：为什么会乱码？
+> A：Git开发核心是Linux系统，使用UTF8编码，Windows使用GBK编码导致中文目录乱码，VS2017默认GBK编码导致代码中文注释乱码
+
+> 解决方案：
+>
+> 1. 把三者的编码设置成UTF8
+> 2. 把三者的编码设置成GBK
+>
+> 方案一，把vs设置成UTF8问题不大，但是把Windows设置成UTF8可能一些旧的软件以及他们生成的文件会出现乱码，不支持UTF8编码。所以我没有尝试方案一
+>
+> 方案二，修改Git的配置为GBK，但是Windows的部分文件格式例如`.txt`文件使用UTF-8编码，其它文件又看不到了。得不偿失
+>
+> 方案三，禁止Git在读取文件目录时，对文件名字中的汉字转义成UTF-8格式。修改VS2017的默认编码为UTF-8
+
+> `git status`文件名称使用中文时被转义为\xx\xx\xx
+
+![image-20220207210306105](https://raw.githubusercontent.com/GC-ZF/Typora-img/main/img/Git%E5%AD%A6%E4%B9%A0144.png)
+
+> 在Git Bash窗口使用这条命令(如果想取消，把false替换成true)
+
+```bash
+#core.quotepath设为false的话，就不会对0×80以上的字符进行转义。中文显示正常
+git config --global core.quotepath false
+```
+
+> 现在文件名称是中文显示了，但是`git diff`或者`vim`、`cat`在Git Bash窗口查看C++文件内容时，也会乱码(绿色是我修改后的样子)
+
+![image-20220207210344343](https://raw.githubusercontent.com/GC-ZF/Typora-img/main/img/Git%E5%AD%A6%E4%B9%A0143.png)
+
+>  单独设置编译器的编码方式
+>
+>  1. 首先[VS2019 设置显示”高级保存选项“_](https://blog.csdn.net/willingtolove/article/details/103772406?ops_request_misc=%7B%22request%5Fid%22%3A%22164432057016780269856022%22%2C%22scm%22%3A%2220140713.130102334..%22%7D&request_id=164432057016780269856022&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-1-103772406.pc_search_insert_es_download&utm_term=高级保存选项&spm=1018.2226.3001.4187)
+>
+>  2. 先打开一个程序，鼠标点一下文件内容，让光标显示出来，不然`高级保存选项`是灰色
+>
+>  3. 在`文件→高级保存选项`选择`Unicode(UTF-8 带签名)`单独设置单个程序的编码方式
+>
+>  但是这样很不方便，在`工具→扩展和更新→联机`搜索`Force UTF-8(With BOM)`，使用这个插件，保存时默认为UTF-8编码
+>
+>  扩展插件里还有一个`Force UTF-8(No BOM)`，`No BOM`就是不带签名，这个签名的作用就是在运行代码的时候，告诉VS，这段代码用的是UTF-8，如果不告诉VS的话就默认用GBK去转义中文注释，**Git Bash**不会乱码了，但是**VS**运行窗口会乱码
+
 # 六、常用的命令
 
 先把命令放在第六大点了，不需要看懂。后面会实践，看不懂回来查看。
@@ -1431,7 +1474,7 @@ git config --local --list
 
 # 十三、Git远程命令实践
 
-实际操作过程中，可以用编译器的集成插件去实现，但插件按钮也是以**指令**命名的，所以先学会指令，插件很容易上手。这里只介绍git指令如何去操作
+> 实际操作过程中，可以用编译器的集成插件去实现，但插件按钮也是以**指令**命名的，所以先学会指令，插件很容易上手。这里只介绍git指令如何去操作
 
 ## 13.1git reset 移除暂存区
 
@@ -1496,7 +1539,7 @@ git branch -a | grep origin | grep -v HEAD | while read rb;do lb=$(echo ${rb} | 
 
 ![image-20220119180006151](https://raw.githubusercontent.com/GC-ZF/Typora-img/main/img/Git%E5%AD%A6%E4%B9%A086.png)
 
-这里可以理解为HEAD记录了一系列指针，链在一起。`git reset`操作就是在移动指针的位置。回退之后，最新的指针就会被删除，需要用`git reflog`去找所有的记录。
+这里可以理解为HEAD记录了一系列指针，将每一次的变动链在一起(并不是每一次都保存所有内容而是保存变动)。`git reset`操作就是在移动指针的位置。回退之后，最新的指针就会被删除，需要用`git reflog`去找所有的记录。
 
 ## 13.5 git merge 合并分支的变更
 
@@ -1603,7 +1646,7 @@ graph LR;
 ![image-20220119200237831](https://raw.githubusercontent.com/GC-ZF/Typora-img/main/img/Git%E5%AD%A6%E4%B9%A096.png)
 
 
-## 13.6 git fetch 远程仓库
+## 13.6 git fetch 拉取远程仓库
 
 新建两个文件夹，分别`clone`我的一个仓库。模拟两台机器
 
@@ -1635,7 +1678,7 @@ graph LR;
 >
 > A：每次checkout的时候，他直接去远程仓库检测是否有该分支。理论上可以，但是实际工作中，使用git是在本地切来切去。只有在团队协作时才需要和远程仓库交互。所以每次checkout都检测远程仓库，浪费网络资源
 
-## 13.7 git pull 拉取到本地
+## 13.7 git pull 拉取远程仓库
 
 如果此时小张修改了分支内的内容，再次push到了远程仓库。小王如何将新的变更更新到本地？可以`fetch+merge`，也可以`pull`。下载代码并快速合并，如果有冲突，手动合并并提交
 
