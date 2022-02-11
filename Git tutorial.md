@@ -1774,10 +1774,10 @@ git rebase -i HEAD~数字 	#从当前记录到前x个记录合并
 ```bash
 # 执行任意一个
 git rebase -i 80fe8d5cea94a687064a740e6e3f3c91a28032d9
-git rebase HEAD~3 	#从当前记录到前x个记录合并
+git rebase -i HEAD~3 	#从当前记录到前x个记录合并
 ```
 
-下面是提示命令的，自己翻译一下很好懂。这里执行S。然后按`Esc`输入`:wq`
+下面是提示命令的，自己翻译一下很好懂。按`i`进入`vim`编辑，这里执行S。然后按`Esc`输入`:wq`(表示保存并退出)
 
 ![image-20220122121109028](https://raw.githubusercontent.com/GC-ZF/Typora-img/main/img/Git%E5%AD%A6%E4%B9%A0110.png)
 
@@ -1876,6 +1876,48 @@ git switch -c <branchName>
 ```
 
 [Git中tag标签的使用_等待化茧成蝶的专栏-CSDN博客](https://blog.csdn.net/wei78008023/article/details/81866590?ops_request_misc=%7B%22request%5Fid%22%3A%22164283763316780271520360%22%2C%22scm%22%3A%2220140713.130102334..%22%7D&request_id=164283763316780271520360&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-1-81866590.pc_search_insert_es_download&utm_term=git+tag&spm=1018.2226.3001.4187)
+
+## 13.12 清除git仓库的所有提交记录
+
+有时候提交记录太多，可以使用`git rebase -i `合并提交记录，但是需要手动修改每一次提交。可以用以下方法清除Git仓库的所有提交记录，成为一个新的干净仓库
+
+1.切换到新的分支
+
+```bash
+git checkout -b latest
+```
+
+2.复制所有文件到`lastest`（除了.gitignore中声明排除的）
+
+```bash
+ git add -A
+```
+
+3.提交跟踪过的文件（Commit the changes）
+
+```bash
+ git commit -am "commit message"
+```
+
+4.删除master分支（Delete the branch）
+
+```bash
+git branch -D master
+```
+
+5.重命名当前分支为master（Rename the current branch to master）
+
+```bash
+ git branch -m master
+```
+
+6.提交到远程master分支 （Finally, force update your repository）
+
+```bash
+ git push -f origin master
+```
+
+通过以上几步就可以简单地把一个Git仓库的历史提交记录清除掉了，不过最好还是在平时的开发中严格要求一下提交日志的规范，尽量避免在里面输入一些敏感信息进来
 
 # 十四、自定义命令
 
