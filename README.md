@@ -1,6 +1,6 @@
-# Git-Study
-![Gitee](https://git-scm.com/images/logo@2x.png)
-# Git-Study From Gitee
+<h1 align="center">Git-Study</h1>
+
+<p align="center"><img src="https://git-scm.com/images/logo@2x.png"></p>
 
 ## 介绍
 小张第一次学git，一键三连哦。 **Star** + **Fork** 
