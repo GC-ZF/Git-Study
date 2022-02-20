@@ -980,7 +980,7 @@ git clone [url]
 2.去gitee或者github上克隆一个测试！下面这是是我的仓库
 
 ```bash
-git clone https://gitee.com/gc-zhang/Git-Study
+git clone https://gitee.com/gc-zhang/Git-Study.git
 ```
 
 ```bash
