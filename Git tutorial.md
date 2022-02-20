@@ -980,11 +980,11 @@ git clone [url]
 2.去gitee或者github上克隆一个测试！下面这是是我的仓库
 
 ```bash
-git clone https://gitee.com/gc-zhang/Git-Study-From-Gitee.git
+git clone https://gitee.com/gc-zhang/Git-Study
 ```
 
 ```bash
-git clone https://github.com/GC-ZF/Git-Study-From-Github.git
+ghttps://github.com/GC-ZF/Git-Study.git
 ```
 
 ## 8.3 Git 本地仓库操作
