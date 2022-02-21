@@ -36,7 +36,7 @@
 
 无论是工作还是学习，或者是自己做笔记，都经历过这样一个阶段！不停的修改、提交，我们就迫切需要一个版本控制工具！通过版本控制可以回溯历史版本。
 
-![image-20220117112041369](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A001.png)
+![image-20220117112041369](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A001.png)
 
 多人开发就必须要使用版本控制！
 
@@ -59,13 +59,13 @@
 
 记录文件每次的更新，可以对每个版本做一个快照，或是记录补丁文件，适合个人用，如RCS。
 
-![Local Computer](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A002.png)
+![Local Computer](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A002.png)
 
 <h3>2.集中版本控制  SVN</h3>
 
 所有的版本数据都保存在服务器上，协同开发者从服务器上同步更新或上传自己的修改
 
-![Central VCS Server](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A003.png)
+![Central VCS Server](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A003.png)
 
 所有的版本数据都存在服务器上，用户的本地只有自己以前所同步的版本，如果不连网的话，用户就看不到历史版本，也无法切换版本验证问题，或在不同分支工作。而且，==所有数据都保存在单一的服务器上==，有很大的风险这个服务器损坏，这样就会丢失所有的数据，当然可以定期备份。代表产品：SVN、CVS、VSS
 
@@ -77,7 +77,7 @@
 
 不会因为服务器损坏或者网络问题，造成不能工作的情况！
 
-![Server Computer](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A004.png)
+![Server Computer](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A004.png)
 
 ## 2.3Git与SVN最主要区别
 
@@ -102,7 +102,7 @@ Linux社区中存在很多的大佬！破解研究 BitKeeper ！
 
 Git是免费、开源的，最初Git是为辅助 Linux 内核开发的，来替代 BitKeeper！
 
-![李纳斯](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A005.jpg)
+![李纳斯](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A005.jpg)
 
 Linux和Git之父李纳斯·托沃兹（Linus Benedic Torvalds）1969、芬兰
 
@@ -118,46 +118,46 @@ Linux和Git之父李纳斯·托沃兹（Linus Benedic Torvalds）1969、芬兰
 
 [git官网给出的指令教程]([Git - Book (git-scm.com)](https://git-scm.com/book/en/v2))
 
-![image-20220117120239969](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A006.png)
+![image-20220117120239969](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A006.png)
 
 <h3>4.1.2使用许可声明</h3>
 
 > 双击下载好的安装包，开始安装，点击**Next**
 
-![image-20220117122201653](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A007.png)
+![image-20220117122201653](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A007.png)
 
 <h3>4.1.3选择安装目录</h3>
 
 > 修改一下路径，点击**Next**
 
-![image-20220117122303269](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A008.png)
+![image-20220117122303269](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A008.png)
 
 <h3>4.1.4选择安装组件</h3>
 
 > 这里我勾选了添加桌面图标(个人习惯)。点击**Next**
 
-![image-20220117122824758](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A009.png)
+![image-20220117122824758](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A009.png)
 
 <h3>4.1.5选择开始菜单文件夹</h3>
 
 > ==文本框不能为空==，如果不要添加到开始菜单，勾选即可。
 
-![image-20220117122939981](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A010.png)
+![image-20220117122939981](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A010.png)
 
 > 安装后菜单栏如图
 
-![image-20220117154815823](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A011.png)
+![image-20220117154815823](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A011.png)
 
 <h3>4.1.6选择 Git 默认编辑器</h3>
 
 > Git 安装程序里面内置了 10 种编辑器，比如 `Atom`、`Notepad`、`Notepad++`、`Sublime Text`、`Visual Studio Code`、`Vim` 等等，默认的是` Vim` ，选择 `Vim` 后可以直接进行到下一步，但是` Vim `是纯命令行，操作有点难度，需要学习。如果选其他编辑器，则还需要去其官网安装后才能进行下一步。
 > 下图为默认编辑器 `Vim`可直接点击**Next**到第七步。
 
-![image-20220117123220462](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A012.png)
+![image-20220117123220462](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A012.png)
 
 > 如果你不想用 `Vim` 当默认编辑器，换一个，比如 `Notepad++` ，那么你者需要点击下面的蓝色字体 " Notepad++ " 去其官网下载安装好才能进行下一步 **next**
 
-![image-20220117123256688](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A013.png)
+![image-20220117123256688](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A013.png)
 
 > 安装后还要配置在`我的电脑->属性->高级系统设置->高级->环境变量->系统变量->Path->编辑添加`Notepad++ 的安装地址，如 `C:\Program Files\notepad++`
 > 这样才能在 Git Bash 里面直接调用 Notepad++。点击**Next**到第七步。
@@ -168,7 +168,7 @@ Linux和Git之父李纳斯·托沃兹（Linus Benedic Torvalds）1969、芬兰
 
 > **注： 第二个选项下面有个`NEW！`，说很多团队已经重命名他们的默认主干名为`main`. 这是因为2020 年非裔男子乔治·弗洛伊德因白人警察暴力执法惨死而掀起的 Black Lives Matter(黑人的命也是命)运动，很多人认为`master`不尊重黑人，呼吁改为`main`.**
 
-![image-20220117123633410](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A014.png)
+![image-20220117123633410](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A014.png)
 
 <h3>4.1.8调整path 环境变量</h3>
 
@@ -182,7 +182,7 @@ Linux和Git之父李纳斯·托沃兹（Linus Benedic Torvalds）1969、芬兰
 >
 > 第三种是从==命令提示符使用 Git 和可选的 Unix 工具==。选择这种将覆盖 Windows 工具，如 “ find 和 sort ”。只有在了解其含义后才使用此选项。一句话，适合比较懂的人折腾。
 
-![image-20220117123937426](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A015.png)
+![image-20220117123937426](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A015.png)
 
 >**翻译**
 >
@@ -221,7 +221,7 @@ Linux和Git之父李纳斯·托沃兹（Linus Benedic Torvalds）1969、芬兰
 
 > 点击**Next**
 
-![image-20220117145123565](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A016.png)
+![image-20220117145123565](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A016.png)
 
 > **翻译**
 >
@@ -247,7 +247,7 @@ Linux和Git之父李纳斯·托沃兹（Linus Benedic Torvalds）1969、芬兰
 
 > 点击**Next**
 
-![image-20220117145227617](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A017.png)
+![image-20220117145227617](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A017.png)
 
 > **翻译**
 >
@@ -282,7 +282,7 @@ Linux和Git之父李纳斯·托沃兹（Linus Benedic Torvalds）1969、芬兰
 
 > 点击**Next**
 
-![image-20220117145441510](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A018.png)
+![image-20220117145441510](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A018.png)
 
 >**翻译**
 >
@@ -342,7 +342,7 @@ Windows 的是 Carriage Return+ Line Feed（回车+换行），用 “\r\n” �
 
 > 点击**Next**
 
-![image-20220117150139136](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A019.png)
+![image-20220117150139136](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A019.png)
 
 > **翻译**
 >
@@ -374,7 +374,7 @@ Windows 的是 Carriage Return+ Line Feed（回车+换行），用 “\r\n” �
 
 <h3>4.1.13选择默认的 “git pull” 行为</h3>
 
-![image-20220117150545907](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A020.png)
+![image-20220117150545907](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A020.png)
 
 > **翻译**
 >
@@ -431,7 +431,7 @@ git pull 只是拉取远程分支并与本地分支合并，而 git fetch 只是
 
 > 点击**next**
 
-![image-20220117151108306](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A021.png)
+![image-20220117151108306](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A021.png)
 
 >**翻译**
 >
@@ -466,7 +466,7 @@ Windows 的 Git 凭据管理器（Git Credential Manager）是在 Windows 上运
 Git Credential Manager Core（GCM Core）旨在用统一的代码库替换 GCM Windows 和 Java GCM，这在将来应该更容易维护和增强。
 登录图如下(属于第一个选项的)
 
-![登录](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A022.png)
+![登录](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A022.png)
 
 点击**Next**到十五步。
 
@@ -474,7 +474,7 @@ Git Credential Manager Core（GCM Core）旨在用统一的代码库替换 GCM W
 
 > 点击**Next**
 
-![image-20220117151749491](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A023.png)
+![image-20220117151749491](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A023.png)
 
 > **翻译**
 >
@@ -517,7 +517,7 @@ Git Credential Manager Core（GCM Core）旨在用统一的代码库替换 GCM W
 
 > 点击**Next**
 
-![image-20220117152313231](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A024.png)
+![image-20220117152313231](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A024.png)
 
 > **翻译**
 >
@@ -547,7 +547,7 @@ Git Credential Manager Core（GCM Core）旨在用统一的代码库替换 GCM W
 
 开始菜单会多出这三个以及鼠标右击
 
-![image-20220117155845141](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A025.png)
+![image-20220117155845141](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A025.png)
 
 **Git Bash：**Unix与Linux风格的命令行，使用最多，推荐最多
 
@@ -559,7 +559,7 @@ Git Credential Manager Core（GCM Core）旨在用统一的代码库替换 GCM W
 
 在如何一个位置右击选择Git Bash Here。输入`ls`,输出当前文件夹内所有文件名称
 
-![image-20220117160408507](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A026.png)
+![image-20220117160408507](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A026.png)
 
 
 
@@ -567,11 +567,11 @@ Git Credential Manager Core（GCM Core）旨在用统一的代码库替换 GCM W
 
 <h3>4.2.1清除环境变量</h3>
 
-![image-20220117121756033](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A027.png)
+![image-20220117121756033](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A027.png)
 
 <h3>4.2.2使用控制面板或自己的软件管家之类卸载</h3>
 
-![image-20220117121909217](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A028.png)
+![image-20220117121909217](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A028.png)
 
 ## 4.3风格样式修改
 
@@ -579,15 +579,15 @@ Git Credential Manager Core（GCM Core）旨在用统一的代码库替换 GCM W
 
 > 右击选择`opinion`
 
-![image-20220117170352885](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A029.png)
+![image-20220117170352885](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A029.png)
 
 `Windows→UI language→zh_CN`
 
-![image-20220117170426793](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A030.png)
+![image-20220117170426793](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A030.png)
 
 > 在外观中可以修改Git Bash的窗口样式
 
-![image-20220117170521315](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A031.png)
+![image-20220117170521315](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A031.png)
 
 # 五、Git配置
 ## 5.1设置用户名与邮箱（用户标识，必要）
@@ -605,7 +605,7 @@ git config --global user.email 1310446718@qq.com   #邮箱
 
 上面这些有点不好懂，举个例子。设置好以后，在本地仓库完成了一次提交(没有push远程)，使用`git log` 可以查看历史提交记录。这里会显示这条历史的作者和邮箱，`push`到远程以后，其他人也可以看到这些修改记录
 
-![image-20220120150847047](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A032.png)
+![image-20220120150847047](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A032.png)
 
 ## 5.2配置文件
 
@@ -613,15 +613,15 @@ git config --global user.email 1310446718@qq.com   #邮箱
 
 1. 查看配置 `git config -l`
 
-![image-20220117171312273](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A033.png)
+![image-20220117171312273](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A033.png)
 
 2. 查看系统配置`git config --system --list`
 
-![image-20220117171427100](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A034.png)
+![image-20220117171427100](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A034.png)
 
 3. 查看当前用户（global）配置`git config --global --list`
 
-![image-20220117171444475](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A035.png)
+![image-20220117171444475](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A035.png)
 
 2、3命令的本质其实就是输出配置文件内容
 
@@ -634,7 +634,7 @@ git config --global user.email 1310446718@qq.com   #邮箱
 ## 5.3 Git Bash中文乱码
 > `git status`文件名称使用中文时被转义为\xx\xx\xx
 
-![image-20220207210306105](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0144.png)
+![image-20220207210306105](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0144.png)
 
 这里以vs2017编译器为例子，不同的编译器默认编码不同
 
@@ -661,7 +661,7 @@ git config --global core.quotepath false
 
 > 现在文件名称是中文显示了，但是`git diff`或者`vim`、`cat`在Git Bash窗口查看C++文件内容时，也会乱码(绿色是我修改后的样子)
 
-![image-20220207210344343](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0143.png)
+![image-20220207210344343](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0143.png)
 
 >  单独设置编译器的编码方式
 >
@@ -704,7 +704,7 @@ git config --global core.quotepath false
 
 <h3>6.2常用的git命令</h3>
 
-![image-20220117200505318](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A036.png)
+![image-20220117200505318](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A036.png)
 
 结合图片记忆基本的命令！
 
@@ -897,7 +897,7 @@ git push origin --delete tag <tagName>
 
 Git本地有三个工作区域：**工作目录（Working Directory）、暂存区(Stage/Index)、资源库(Repository或Git Directory)**。如果在加上远程的**git仓库(Remote Directory)**就可以分为四个工作区域。文件在这四个区域之间的转换关系如下：
 
-![image-20220118175525822](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A037.png)
+![image-20220118175525822](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A037.png)
 
 - **Workspace：**工作区，就是你平时存放项目代码的地方
 - **Index / Stage：**暂存区，用于临时存放你的改动，事实上它只是一个文件，保存即将提交到文件列表信息(**.git** 隐藏文件)
@@ -908,7 +908,7 @@ Git本地有三个工作区域：**工作目录（Working Directory）、暂存�
 
 本地的三个区域确切的说应该是git仓库中HEAD指向的版本：
 
-![image-20220117193350581](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A038.png)
+![image-20220117193350581](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A038.png)
 
 - **Directory：**使用Git管理的一个目录，也就是一个仓库，包含我们的工作空间和Git的管理空间
 - **WorkSpace：**需要通过Git进行版本控制的目录和文件，这些目录和文件组成了工作空间
@@ -950,7 +950,7 @@ graph LR;
 
 日常使用只要记住下图6个命令：
 
-![image-20220117200505318](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A036.png)
+![image-20220117200505318](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A036.png)
 
 ## 8.2本地仓库搭建
 
@@ -964,7 +964,7 @@ graph LR;
 git init
 ```
 
-![image-20220117201237231](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A039.png)
+![image-20220117201237231](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A039.png)
 
 2.执行后可以看到，仅仅在项目目录多出一个.git目录，关于版本等所有信息在这个目录中
 
@@ -1000,16 +1000,16 @@ graph LR;
 
 首先在本地新建一个文件夹，右击`Git Brash HERE`。依次输入`git init`,`git status`
 
-![image-20220118193537540](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A040.png)
+![image-20220118193537540](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A040.png)
 
-![image-20220118193543041](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A041.png)
+![image-20220118193543041](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A041.png)
 
 ```bash
 # 添加暂存区 文件由红变绿
 git add .
 ```
 
-![image-20220118193547265](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A042.png)
+![image-20220118193547265](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A042.png)
 
 注意这里的`commit`只上传暂存区的文件，也就是说如果没有`add .`而是`add xxx文件`，提交之后只有xxx被提交。
 
@@ -1019,7 +1019,7 @@ commit之后，`1 file changed`表示一个文件变更，这里的`insertions`,
 git commit -m "xxx"  # xxx即下图中，Github仓库中显示的内容
 ```
 
-![image-20220118194045076](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A043.png)
+![image-20220118194045076](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A043.png)
 
 <h3>扩展解释，不需要完全理解，多实践即可</h3>
 
@@ -1100,7 +1100,7 @@ tmp/
 
 在Gitee仓库界面有一个分支按钮
 
-![image-20220120153636803](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A044.png)
+![image-20220120153636803](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A044.png)
 
 分支就好比把`D:\项目A\master`复制到了`D:\项目A\dev`，在“dev"中继续工作
 
@@ -1124,19 +1124,19 @@ graph LR;
 
 eg：新建1.0文本提交一次，新建2.0文本提交一次
 
-![image-20220120202116414](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A045.png)
+![image-20220120202116414](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A045.png)
 
 新建一个分支`新分支`，在`新分支`新建一个3.0文本提交一次
 
-![image-20220120202130656](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A046.png)
+![image-20220120202130656](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A046.png)
 
 查看日志，有三次提交记录
 
-![image-20220120202208789](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A047.png)
+![image-20220120202208789](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A047.png)
 
 切换到master分支，只有两条记录
 
-![image-20220120202221909](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A048.png)
+![image-20220120202221909](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A048.png)
 
 ## 9.2 分支有什么用？
 
@@ -1146,7 +1146,7 @@ eg：新建1.0文本提交一次，新建2.0文本提交一次
 
 开发不同的功能也可以为每一个 功能/小组 分一个新分支。合作完成后，将每一个分支合并到master
 
-![image-20220120153636803](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A049.png)
+![image-20220120153636803](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A049.png)
 
 如果同一个文件在合并分支时都被修改了则会引起冲突：解决的办法是我们可以修改冲突文件后重新提交！选择要保留他的代码还是你的代码！[会在13.6 git merge讲解决冲突，这里理解什么是分支？](# 13.6 git merge 合并分支的变更)
 
@@ -1163,7 +1163,7 @@ graph LR;
     master-->功能A;
 ```
 
-![image-20220122110533096](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A050.png)
+![image-20220122110533096](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A050.png)
 
 2.现在开发新的功能，从`master`切一个`dev`分支，`dev`分支会继承`master`分支，开发完后`dev`分支如图
 
@@ -1173,7 +1173,7 @@ graph LR;
     功能A-->功能B;
 ```
 
-![image-20220122110810208](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A051.png)
+![image-20220122110810208](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A051.png)
 
 3.假设`master`中功能A出现`bug`，从`master`分支切一个`fixbug`分支，`fixbug`继承`master`，修复完后，`fixbug`分支如图
 
@@ -1183,7 +1183,7 @@ graph LR;
     功能A-->修复功能A;
 ```
 
-![image-20220122111615522](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A052.png)
+![image-20220122111615522](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A052.png)
 
 4.现在切回`master`，`merge`合并分支`fixbug`(合并后`git branch -d fixbug`删除多余的分支，忘截图了)
 
@@ -1193,7 +1193,7 @@ graph LR;
     功能A-->修复功能A
 ```
 
-![image-20220122183105652](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A053.png)
+![image-20220122183105652](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A053.png)
 
 5.之后`merge`分支`dev`到`master`分支，`master`分支如图
 
@@ -1206,7 +1206,7 @@ graph LR;
     修复功能A-->修复merge.dev冲突;
 ```
 
-![image-20220122183251642](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A054.png)
+![image-20220122183251642](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A054.png)
 
 > Q：为什么最后分支图会分叉？
 >
@@ -1227,19 +1227,19 @@ graph LR;
 
  eg:merge太多
 
- ![image-20220122114555692](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A055.png)
+ ![image-20220122114555692](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A055.png)
 
 # 十、使用Gitee链接远程仓库(免密登录)
 
 如果不设置公钥，每一次`push`远程都需要账号密码。github是有墙的，比较慢，在国内的话，我们一般使用gitee，公司有时候会搭建自己的gitlab服务器
 
-![登录](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A022.png)
+![登录](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A022.png)
 
 ## 10.1链接仓库
 
 1.注册登录[码云](https://gitee.com/)，完善个人信息
 
-![image-20220117213447598](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A056.png)
+![image-20220117213447598](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A056.png)
 
 2.设置本机绑定SSH公钥，实现免密码登录！（免密码登录，这一步挺重要的，码云是远程仓库，我们是平时工作在本地仓库！)
 
@@ -1251,7 +1251,7 @@ ssh-keygen -t rsa
 
 一直按回车确认即可，在该文件夹生成两个文件
 
-![image-20220120223857904](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A057.png)
+![image-20220120223857904](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A057.png)
 
 3.将公钥信息public key添加到码云账户即可
 
@@ -1262,17 +1262,17 @@ ssh-keygen -t rsa
 cat ~/.ssh/id_rsa.pub
 ```
 
-![image-20220117215011109](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A058.png)
+![image-20220117215011109](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A058.png)
 
 这里默认本机用户为ssh key的标识符，可以自己修改。标题任意命名。
 
-![image-20220117221138255](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A059.png)
+![image-20220117221138255](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A059.png)
 
 4.使用码云创建一个自己的仓库
 
-![image-20220117221644291](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A060.png)
+![image-20220117221644291](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A060.png)
 
-![image-20220117222111433](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A061.png)
+![image-20220117222111433](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A061.png)
 
 最后三个对勾根据情况，自己选择
 
@@ -1282,15 +1282,15 @@ cat ~/.ssh/id_rsa.pub
 
 建好以后利用`git clone [url]`命令或者直接下载到本地(下载的文件可以直接复制到本地任意位置，因为.git中保存了当前仓库的信息，可以默认连接远程仓库,eg：克隆在D:\C++，但是我想做JAVA程序，可以把仓库内所有文件复制到D:\JAVA的项目路径下，之后再进行下面步骤)。==注意配置好公钥，选择SSH，本地上传远程就不用输入账号密码了==
 
-![image-20220118212109093](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A062.png)
+![image-20220118212109093](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A062.png)
 
 第三、四个指令可以键鼠完成。
 
-![image-20220118204533570](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A063.png)
+![image-20220118204533570](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A063.png)
 
 可以看到仓库中增了demo.txt
 
-![image-20220118204203340](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A064.png)
+![image-20220118204203340](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A064.png)
 
 # 十一、利用GitHub连接远程仓库(免密登录)
 
@@ -1300,9 +1300,9 @@ cat ~/.ssh/id_rsa.pub
 
 2.新建一个仓库`New repository`
 
-![image-20220120205649011](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A065.png)
+![image-20220120205649011](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A065.png)
 
-![image-20220120210734803](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A066.png)
+![image-20220120210734803](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A066.png)
 
 3.生成公钥和私钥：输入以下命令
 
@@ -1314,17 +1314,17 @@ ssh-keygen -t rsa
 
 输完命令连续按三次回车
 
-![image-20220120223747937](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A067.png)
+![image-20220120223747937](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A067.png)
 
 4.生成的`id_rsa`以文本打开，复制文本内容。
 
 5.将公钥添加到github中
 
-![image-20220120222555893](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A068.png)
+![image-20220120222555893](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A068.png)
 
 6.克隆仓库时，自己的仓库用SSH链接。克隆别人的仓库用HTTPS。因为自己用HTTPS可能会请求超时。
 
-![image-20220121151536420](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A069.png)
+![image-20220121151536420](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A069.png)
 
 # 十二、同时配置Gitee、Github 公钥
 
@@ -1353,20 +1353,20 @@ ssh-keygen -t rsa -C "GC_Zhang" -f "id_rsa_gitee"
 ssh-keygen -t rsa -C "GC-ZF" -f "id_rsa_github"
 ```
 
-![image-20220121104331257](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A070.png)
+![image-20220121104331257](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A070.png)
 
 完成后，会在 `C:\Users\用户名\.ssh` 文件夹下生成github和码云的私钥和公钥文件
 
-![image-20220121104605162](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A071.png)
+![image-20220121104605162](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A071.png)
 
 **2.把公钥文件中的 key 复制到 github 和gitee的ssh公钥中**
 打开 `id_rsa_gitee.pub`，把相关 ssh key复制到 [gitee](https://gitee.com/) 的 `设置>ssh公钥` 中,标题和公钥不用保持一致
 
-![image-20220121162155895](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A072.png)
+![image-20220121162155895](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A072.png)
 
 打开 `id_rsa_github.pub`,把相关 ssh key复制到 [github](http://github.com/) 的 `Settings>SSH and GPG keys` 中
 
-![image-20220121104841022](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A073.png)
+![image-20220121104841022](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A073.png)
 
 **3.创建config 文件解决ssh 冲突**
 
@@ -1411,7 +1411,7 @@ eg：这里`Host`可以命名其它汉字、名字，我只是为了第4步方�
 ssh -T git@自己配置的Host别名	# 必须区别大写T
 ```
 
-![image-20220121154349219](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A074.png)
+![image-20220121154349219](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A074.png)
 
 出现`Hi GC_Zhang! You've successfully authenticated, but GITEE.COM does not provide shell access.`就代表配置成功
 
@@ -1427,7 +1427,7 @@ eg：常用Github，偶尔用Gitee，那么Github的用户信息不用做修改�
 git config --global --list
 ```
 
-![image-20220121102504826](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A075.png)
+![image-20220121102504826](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A075.png)
 
 单独为仓库配置一个用户名(后来我发现不加local后缀也是默认本地)
 
@@ -1437,7 +1437,7 @@ git config --local user.email "xxx"
 git config --local user.name "xxx@x.com"
 ```
 
-![image-20220121171638549](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A076.png)
+![image-20220121171638549](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A076.png)
 
 查看本地仓库配置
 
@@ -1445,11 +1445,11 @@ git config --local user.name "xxx@x.com"
 git config --local --list
 ```
 
-![image-20220121170526316](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A077.png)
+![image-20220121170526316](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A077.png)
 
 提交一次记录，现在日志里的信息就是新设置的用户信息，但仅对当前仓库有效
 
-![image-20220121170634417](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A078.png)
+![image-20220121170634417](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A078.png)
 
 **多台电脑使用统一的 ssh 文件**
 
@@ -1478,23 +1478,23 @@ git config --local --list
 
 当我们将文件加入暂存区以后，想要修改一下再提交，可以使用`git reset`
 
-![image-20220120200653705](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A079.png)
+![image-20220120200653705](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A079.png)
 
-![image-20220120200657979](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A080.png)
+![image-20220120200657979](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A080.png)
 
 执行`git add`后执行`git status`，窗口也会提示移除暂存区的指令`git restore --staged <filename>`
 
-![image-20220123184542563](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0142.png)
+![image-20220123184542563](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0142.png)
 
 ## 13.2 git log+git reflog+git reset 版本回退
 
 首先提交了两次文件。第一次新建1.0.txt，`git commit -m "A"`，第二次把1.0删除，提交2.0.txt，`git commit -m "B"`,作为例子
 
-![image-20220119175732527](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A085.png)
+![image-20220119175732527](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A085.png)
 
 回退完成后，当前最新的记录"2.0.txt"就消失了，如果想再回到2.0,利用`relog`查看历史提交记录
 
-![image-20220119180006151](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A086.png)
+![image-20220119180006151](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A086.png)
 
 这里可以理解为HEAD记录了一系列指针，将每一次的变动链在一起(并不是每一次都保存所有内容而是保存变动)。`git reset`操作就是在移动指针的位置。回退之后，最新的指针就会被删除，需要用`git reflog`去找所有的记录。
 
@@ -1502,7 +1502,7 @@ git config --local --list
 
 正常情况下直接`git push`就可以提交到远程仓库。但是在本地新建了一个分支`4.0`,在`git push`的时候报错，如下
 
-![image-20220119110611494](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A081.png)
+![image-20220119110611494](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A081.png)
 
 这个错误就是 表示本地分支与远程分支之间没有连接起来，所以在`git push`的时候报错
 
@@ -1525,27 +1525,27 @@ git config --local --list
 
 新建两个文件夹，分别`clone`我的一个仓库。模拟两台机器
 
-![image-20220119202333836](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A097.png)
+![image-20220119202333836](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A097.png)
 
 新建一个分支，当前分支仅存在于本地。而远端没有这个分支，执行`git  push`
 
-![image-20220119203733093](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A098.png)
+![image-20220119203733093](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A098.png)
 
-![image-20220119203919926](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A099.png)
+![image-20220119203919926](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A099.png)
 
 > 总结：如果本地分支是新建的，也就是说没有设置上流分支，则需要使用`git push --set-upstream origin <name>`，先设置上流分支。之后的所有提交直接使用`git push`即可
 
 现在小王想要使用`小张`这个分支。使用`git fetch`查看新分支，仅是查看信息，并没有下载本地
 
-![image-20220119205117266](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0100.png)
+![image-20220119205117266](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0100.png)
 
 利用`git branch`查看当前本地的分支信息
 
-![image-20220119205205479](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0101.png)
+![image-20220119205205479](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0101.png)
 
 通过`checkout`切换到新分支，现在本地仓库的文件就切换成了新分支。==注意==必须先`git fetch`，否则`checkout`无效
 
-![image-20220119205321480](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0102.png)
+![image-20220119205321480](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0102.png)
 
 > 这里新分支并不需要重新设置上流分支，直接`push`即可。因为从远程仓库切的分支，git知道它的来源
 >
@@ -1576,7 +1576,7 @@ git merge <分支名> 	  # 将拉取下来的最新内容合并到当前所在�
 
 另一种情况是如果小张push到远程仓库后，小王把小张的程序修改了，小王是对旧版本做了更改，也push远程仓库就会报错。正常情况下先`git pull`到本地查看文件改动，如果有冲突，手动改动后再提交(先输入的命令后查看的文本，这里我上下截图顺序错了)
 
-![image-20220121181717995](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0103.png)
+![image-20220121181717995](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0103.png)
 
 以下是后来对文章的改动，因为单独在`git merge `发过解决冲突，所以没有截图。避免有小伙伴不会解决冲突，单独解释一下
 
@@ -1595,11 +1595,11 @@ git merge <分支名> 	  # 将拉取下来的最新内容合并到当前所在�
 
 所以建议使用`fetch+merge`，可以先`git fetch`,查看远程是否有新的更新？如果没有更新，不返回仍何值
 
-![image-20220123181152099](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0140.png)
+![image-20220123181152099](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0140.png)
 
 如果有更新再用`git merge origin <branch-name>`将本地仓库与远程仓库合并
 
-![image-20220123181610501](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0141.png)
+![image-20220123181610501](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0141.png)
 
 解决冲突后再进行`git push`
 
@@ -1614,11 +1614,11 @@ git merge <分支名> 	  # 将拉取下来的最新内容合并到当前所在�
 
 默认下载`master`主分支
 
-![image-20220119114510606](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A082.png)
+![image-20220119114510606](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A082.png)
 
 通过`git branch -a`,列出所有分支，之后`git checkout branchname`，可以将其它分支克隆到本地
 
-![image-20220119114900390](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A083.png)
+![image-20220119114900390](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A083.png)
 
 也可以通过这段，将所有分支一次性下载到本地，没有网络连接时仍可以使用`checkout`查看其它分支(仓库文件夹只显示一个分支的文件，实际上已经将全部分支下载到本地`仓库名字\.git\logs\refs\heads`)
 
@@ -1626,7 +1626,7 @@ git merge <分支名> 	  # 将拉取下来的最新内容合并到当前所在�
 git branch -a | grep origin | grep -v HEAD | while read rb;do lb=$(echo ${rb} | cut -d/ -f 3-);git checkout -b $lb $rb;done
 ```
 
-![image-20220119115043845](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A084.png)
+![image-20220119115043845](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A084.png)
 
 ## 13.7 git merge 合并分支的变更
 
@@ -1675,10 +1675,10 @@ graph LR;
 ```
 主管
 ```
-![image-20220119194937481](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A087.png)
+![image-20220119194937481](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A087.png)
 2. 创建分支`git branch zhang`,`git branch wang`
 
-![image-20220119195110676](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A088.png)
+![image-20220119195110676](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A088.png)
 
 2. `git checkout zhang`切换分支zhang。修改A.txt的内容，并提交本地仓库
 
@@ -1688,7 +1688,7 @@ graph LR;
 小张
 ```
 
-![image-20220119195219199](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A089.png)
+![image-20220119195219199](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A089.png)
 
 3. `git checkout wang`切换分支wang。修改A.txt的内容，并提交本地仓库
 
@@ -1698,25 +1698,25 @@ graph LR;
 小王提交
 ```
 
-![image-20220119195254413](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A090.png)
+![image-20220119195254413](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A090.png)
 
 4. `git checkout master`切换分支master。合并zhang分支到master
 
-![image-20220119195407408](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A091.png)
+![image-20220119195407408](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A091.png)
 
 现在我们的文本变成了这样
 
-![image-20220119195442492](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A092.png)
+![image-20220119195442492](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A092.png)
 
 5. 合并wang分支到master
 
-![image-20220119195547549](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A093.png)
+![image-20220119195547549](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A093.png)
 
 如图，这里显示**“自动合并失败；修复冲突，然后提交结果”**。因为现在的A.txt是master和zhang两个分支合并的结果
 
 打开A.txt
 
-![image-20220119195848706](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A094.png)
+![image-20220119195848706](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A094.png)
 
 手动修改为
 
@@ -1730,11 +1730,11 @@ graph LR;
 
 然后添加到本地仓库即可
 
-![image-20220119195942685](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A095.png)
+![image-20220119195942685](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A095.png)
 
 查看日志，这里记录了所有的提交记录
 
-![image-20220119200237831](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A096.png)
+![image-20220119200237831](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A096.png)
 
 使用`git log -p`可以查看日志，概览如图
 
@@ -1764,7 +1764,7 @@ graph LR;
 
  eg:merge太多
 
-![image-20220122114555692](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A055.png)
+![image-20220122114555692](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A055.png)
 
 ## 13.8 git rebase 变基
 
@@ -1774,11 +1774,11 @@ graph LR;
 
 假定有一个master分支，在这个分支上有两次commit。之后切出了分支bc，此时bc和master的commit完全一致。之后bc有了第三次、第四次commit，master也有了一次提交。
 
-![image-20220119211600630](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0104.png)
+![image-20220119211600630](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0104.png)
 
 为了区分commit按时间顺序编号。现在bc以master的前两次commit为基础发展的。如果想要以最新的master版本为base提交commit。也就是说让bc变成1、2、5、3、4一条线，而不是`merge`那样有分叉，这里就需要用`rebase`
 
-![image-20220119211613680](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0105.png)
+![image-20220119211613680](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0105.png)
 
 `rebase`原理是枚举变更的commit，依次变基。先拿出3号commit，然后以125为基础添加3号commit，再拿出4号commit，以1253为基础添加4号commit。直至所有新增commit完成变基。所以`rebase`就是重新排列base。base就是指commit。
 
@@ -1788,11 +1788,11 @@ graph LR;
 
 1.`git log`查看master和bc分支的提交记录
 
-![image-20220119212543369](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0106.png)
+![image-20220119212543369](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0106.png)
 
 2.在`bc`分支中执行`git rebase`命令，出现冲突手动解决即可。
 
-![image-20220119212632284](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0107.png)
+![image-20220119212632284](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0107.png)
 
 3.处理完后add到暂存区，继续下一个commit结点的rebase。
 
@@ -1802,7 +1802,7 @@ git rebase --continue
 
 重复2、3后如图
 
-![image-20220119212802420](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0108.png)
+![image-20220119212802420](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0108.png)
 
 <h3>第一种使用情况</h3>
 
@@ -1816,7 +1816,7 @@ git rebase -i HEAD~数字 	#从当前记录到前x个记录合并
 
 1.使用`git log`查看日志
 
-![image-20220122115423239](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0109.png)
+![image-20220122115423239](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0109.png)
 
 2.合并三条记录
 
@@ -1828,15 +1828,15 @@ git rebase -i HEAD~3 	#从当前记录到前x个记录合并
 
 下面是提示命令的，自己翻译一下很好懂。按`i`进入`vim`编辑，这里执行S。然后按`Esc`输入`:wq`(表示保存并退出)
 
-![image-20220122121109028](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0110.png)
+![image-20220122121109028](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0110.png)
 
 删掉前几次提交的信息输入新的commit。然后按`Esc`输入`:wq`
 
-![image-20220122121419783](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0111.png)
+![image-20220122121419783](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0111.png)
 
 合并成功，之后可以`git log`一下看一下变化。
 
-![image-20220122121439242](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0112.png)
+![image-20220122121439242](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0112.png)
 
 ==注意：==不要对已经push过远程的记录进行`git rebase -i HEAD`有可能会反而更乱
 
@@ -1846,23 +1846,23 @@ git rebase -i HEAD~3 	#从当前记录到前x个记录合并
 
 1.新切一个`dev`分支，并提交一次记录
 
-![image-20220122122022277](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0113.png)
+![image-20220122122022277](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0113.png)
 
 2.切回`master`分支，新建一个文本，提交一次记录
 
-![image-20220122122212033](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0114.png)
+![image-20220122122212033](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0114.png)
 
 3.用`git merge`合并`dev`到`master`。(如果十多个人的团队开发项目，一直使用`merge`，开发记录就会很凌乱)
 
-![image-20220122122628892](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0115.png)
+![image-20220122122628892](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0115.png)
 
 4.切回`dev`，合并`master `到`dev`
 
-![image-20220122123117770](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0116.png)
+![image-20220122123117770](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0116.png)
 
 5.在`dev`中提交一次记录
 
-![image-20220122123616138](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0117.png)
+![image-20220122123616138](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0117.png)
 
 6.切回`master`提交一次记录
 
@@ -1870,11 +1870,11 @@ git rebase -i HEAD~3 	#从当前记录到前x个记录合并
 
 7.切回到`dev`分支，`git rebase`
 
-![image-20220122123848771](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0119.png)
+![image-20220122123848771](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0119.png)
 
 8.因为最终代码要放回`master`主分支，所以切回`master`，执行`git merge`
 
-![image-20220122124034372](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0120.png)
+![image-20220122124034372](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0120.png)
 
 这样提交记录就是一条线而不是分叉，使提交记录显示的非常简洁。如果有点凌乱可以理解为，在dev分支中`git rebase master`是将master中的记录并过来成==一条线而不是分叉==，之后再回到master，`git merge dev`，这样就不会产生分叉不在master中直接`git rebase`是因为master是稳定的主分支，避免合并产生其它冲突使master中的代码损坏
 
@@ -1896,7 +1896,7 @@ git cherry-pick <哈希值>
 
 ## 13.11 Git tag 标签
 
-![image-20220122163422944](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0121.png)
+![image-20220122163422944](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0121.png)
 
 在Github下载别人做好的软件都有这个界面。`tag`是git版本库的一个标记，指向某个[commit](https://so.csdn.net/so/search?q=commit&spm=1001.2101.3001.7020)的指针。主要用于发布版本的管理，一个版本发布之后，我们可以为git打上v 1.0,v 1.1这样的标签。tag需要==单独推送远程==，不能使用`git push`
 
@@ -1904,7 +1904,7 @@ git cherry-pick <哈希值>
 git push origin <tagName>
 ```
 
-![image-20220122161651276](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0122.png)
+![image-20220122161651276](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0122.png)
 
 > tag感觉跟branch有点相似，但是本质上和分工上是不同的：
 >
@@ -1914,7 +1914,7 @@ git push origin <tagName>
 
 `tag` 和 `branch` 的相互配合使用，有时候起到非常方便的效果，例如：已经发布了 v1.0 v2.0 v3.0 三个版本，这个时候，我突然想不改现有代码的前提下，在 v2.0 的基础上加个新功能，作为 v4.0 发布。就可以检出 v2.0 的代码作为一个 branch ，然后作为开发分支
 
-![image-20220122163112998](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0123.png)
+![image-20220122163112998](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0123.png)
 
 ```bash
 # 标出标签
@@ -2020,13 +2020,13 @@ git branch -D master
 
 ## 15.1 README.md
 
-![image-20220123171128958](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0136.png)
+![image-20220123171128958](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0136.png)
 
 新建仓库的时候有一个勾选是否新建"REAME.md"，这个其实就是字面意思。**遇事不决先REAME**，意思是说这个REAME文件会展示在我们的仓库首页，起到简介的作用。".md"是用==markdown==语言编写的文本，我的所有的博客也是通过==markdown==写的，可以看一下我第一次使用CSDN的博客！[入门markdown使用教程(Typora)_鬼才小张同学的博客](https://blog.csdn.net/qq_49488584/article/details/121513406?spm=1001.2014.3001.5501)。
 
 可以在仓库里直接编辑，也可以编辑好以后Push远程。
 
-![image-20220123171748191](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0137.png)
+![image-20220123171748191](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0137.png)
 
 > 区别下面的Wike，Wike是公司用的。README是站在个人的角度。比方说，现在做了一个开源的软件放在了Github上，别人会先通过README来了解这个软件是做什么用的？
 
@@ -2034,11 +2034,11 @@ git branch -D master
 
 仓库界面
 
-![image-20220122150623214](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0124.png)
+![image-20220122150623214](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0124.png)
 
 个人主页
 
-![image-20220122151427081](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0125.png)
+![image-20220122151427081](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0125.png)
 
 **Pin**：代表这个仓库会显示在你的个人主页，类似置定的作用，别人可以率先看到这个仓库
 
@@ -2046,7 +2046,7 @@ git branch -D master
 
 **Star:**类似一键三连，点赞收藏，表示对项目的支持。Star的项目会收在个人主页。也可以通过标签对仓库分类
 
-![image-20220122151225644](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0126.png)
+![image-20220122151225644](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0126.png)
 
 所以可以搜一些值得**Watch**的项目，看大佬的开发，如果有任何新动态，可以收到通知，不仅可以查看别人的回答，也可以回答别人提出的问题，这是一个很好的学习成长方式
 
@@ -2056,23 +2056,23 @@ git branch -D master
 
 **Issues：**进行文档以及任务管理。有任何的疑问，bug。发起一个Issues。另一方面，如果新成员对项目有问题，可以通过标签筛选查看历史，快速了解项目。或者一个开源项目，其他人发现了bug，也可以通过Issues提交给作者
 
-![image-20220121183309717](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0134.png)
+![image-20220121183309717](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0134.png)
 
-![image-20220121203732692](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0127.png)
+![image-20220121203732692](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0127.png)
 
 提交后，代码的管理者就会收到，去解决问题
 
-![image-20220121203955491](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0128.png)
+![image-20220121203955491](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0128.png)
 
 管理员可以修改问题的状态，收到消息后可以回复消息并关掉问题
 
-![image-20220121204550280](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0129.png)
+![image-20220121204550280](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0129.png)
 
 **Wiki：**对项目的描述，方便新人了解项目
 
 ## 15.4 fork & clone 的区别 & pull request 给开源仓库贡献代码
 
-![image-20220122132647096](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0130.png)
+![image-20220122132647096](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0130.png)
 
 **fork：**在Github页面，点击fork按钮。将别人的仓库复制一份到自己的仓库
 
@@ -2101,21 +2101,21 @@ git branch -D master
 * 一种是通过新建仓库，在仓库中邀请新成员
 * 一种是新建一个组织，在组织中新建仓库(类似新建一个QQ群，使用群文件管理项目)，这样就不用每次都重新邀请一遍团队成员，默认新成员的权限是只读，需要在组织界面`Setting`设置写权限，或者在指定仓库的界面`Setting`。
 
-![image-20220122164233413](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0131.png)
+![image-20220122164233413](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0131.png)
 
 **2.设置仓库规则**
 
-![image-20220122165858509](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0132.png)
+![image-20220122165858509](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0132.png)
 
 ## 15.6 在线编辑文件 & githubls.com 
 
 我们可以直接在网页对单个文件进行一些简单的操作
 
-![image-20220123174408973](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0138.png)
+![image-20220123174408973](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0138.png)
 
 但是当一个仓库有很多文件，这个时候需要查阅编辑某个文件，可以直接在仓库界面点击`Go to file`进行查找，也可以克隆到本地，但是有一种更简单的办法，在仓库地址后缀加"ls"变为"githubls.com/xxx/xxx"，也可以在仓库界面直接按`.`，文件就会以文件树的方式展示出来，可以像IDEA那样，直接对文件进行编辑，下载
 
-![image-20220123173300999](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0139.png)
+![image-20220123173300999](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0139.png)
 
 ![](https://github.com/GC-ZF/TG-Learn/blob/main/Img/Web%20editor%20Download.jpg?raw=true)
 
@@ -2140,7 +2140,7 @@ git branch -D master
 
 > 熟练后建议使用**Github**,理由通过对比已经很明显了
 
-![image-20220119213715907](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/img/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0133.png)
+![image-20220119213715907](https://raw.githubusercontent.com/GC-ZF/Typora-Img/main/Git%E5%AD%A6%E4%B9%A0/Git%E5%AD%A6%E4%B9%A0133.png)
 
 <font size=5 color="Cyan">多敲 多练 多查！指令有很多，多敲可以结合自身情况去记忆其它功能 </font>
 
